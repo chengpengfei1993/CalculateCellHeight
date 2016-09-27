@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		644F4D771D9AAA7500A2E745 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644F4D761D9AAA7500A2E745 /* AppDelegate.swift */; };
-		644F4D791D9AAA7500A2E745 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644F4D781D9AAA7500A2E745 /* ViewController.swift */; };
-		644F4D7C1D9AAA7500A2E745 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644F4D7A1D9AAA7500A2E745 /* Main.storyboard */; };
 		644F4D7E1D9AAA7500A2E745 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 644F4D7D1D9AAA7500A2E745 /* Assets.xcassets */; };
 		644F4D811D9AAA7500A2E745 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644F4D7F1D9AAA7500A2E745 /* LaunchScreen.storyboard */; };
 		644F4D8C1D9AAA7500A2E745 /* CalculateCellHeightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644F4D8B1D9AAA7500A2E745 /* CalculateCellHeightTests.swift */; };
 		644F4D971D9AAA7500A2E745 /* CalculateCellHeightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644F4D961D9AAA7500A2E745 /* CalculateCellHeightUITests.swift */; };
+		644F4DAB1D9AAFF800A2E745 /* MainVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644F4DAA1D9AAFF800A2E745 /* MainVc.swift */; };
+		644F4DAD1D9AB0C000A2E745 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644F4DAC1D9AB0C000A2E745 /* TableViewController.swift */; };
+		644F4DB01D9AB26400A2E745 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644F4DAE1D9AB26400A2E745 /* TableViewCell.swift */; };
+		644F4DB11D9AB26400A2E745 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 644F4DAF1D9AB26400A2E745 /* TableViewCell.xib */; };
+		644F4DB31D9AB2AD00A2E745 /* CellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644F4DB21D9AB2AD00A2E745 /* CellModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +39,6 @@
 /* Begin PBXFileReference section */
 		644F4D731D9AAA7500A2E745 /* CalculateCellHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculateCellHeight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		644F4D761D9AAA7500A2E745 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		644F4D781D9AAA7500A2E745 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		644F4D7B1D9AAA7500A2E745 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		644F4D7D1D9AAA7500A2E745 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		644F4D801D9AAA7500A2E745 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		644F4D821D9AAA7500A2E745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +48,11 @@
 		644F4D921D9AAA7500A2E745 /* CalculateCellHeightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculateCellHeightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		644F4D961D9AAA7500A2E745 /* CalculateCellHeightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateCellHeightUITests.swift; sourceTree = "<group>"; };
 		644F4D981D9AAA7500A2E745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		644F4DAA1D9AAFF800A2E745 /* MainVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVc.swift; sourceTree = "<group>"; };
+		644F4DAC1D9AB0C000A2E745 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		644F4DAE1D9AB26400A2E745 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		644F4DAF1D9AB26400A2E745 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		644F4DB21D9AB2AD00A2E745 /* CellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,9 @@
 		644F4D751D9AAA7500A2E745 /* CalculateCellHeight */ = {
 			isa = PBXGroup;
 			children = (
+				644F4DA51D9AAF7600A2E745 /* Classes */,
+				644F4DA41D9AAF3A00A2E745 /* Source */,
 				644F4D761D9AAA7500A2E745 /* AppDelegate.swift */,
-				644F4D781D9AAA7500A2E745 /* ViewController.swift */,
-				644F4D7A1D9AAA7500A2E745 /* Main.storyboard */,
-				644F4D7D1D9AAA7500A2E745 /* Assets.xcassets */,
-				644F4D7F1D9AAA7500A2E745 /* LaunchScreen.storyboard */,
-				644F4D821D9AAA7500A2E745 /* Info.plist */,
 			);
 			path = CalculateCellHeight;
 			sourceTree = "<group>";
@@ -123,6 +126,60 @@
 				644F4D981D9AAA7500A2E745 /* Info.plist */,
 			);
 			path = CalculateCellHeightUITests;
+			sourceTree = "<group>";
+		};
+		644F4DA41D9AAF3A00A2E745 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				644F4D7D1D9AAA7500A2E745 /* Assets.xcassets */,
+				644F4D7F1D9AAA7500A2E745 /* LaunchScreen.storyboard */,
+				644F4D821D9AAA7500A2E745 /* Info.plist */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		644F4DA51D9AAF7600A2E745 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				644F4DA91D9AAFCA00A2E745 /* Main */,
+				644F4DA61D9AAFA400A2E745 /* Controllers */,
+				644F4DA71D9AAFA400A2E745 /* Models */,
+				644F4DA81D9AAFA400A2E745 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		644F4DA61D9AAFA400A2E745 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				644F4DAC1D9AB0C000A2E745 /* TableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		644F4DA71D9AAFA400A2E745 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				644F4DB21D9AB2AD00A2E745 /* CellModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		644F4DA81D9AAFA400A2E745 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				644F4DAE1D9AB26400A2E745 /* TableViewCell.swift */,
+				644F4DAF1D9AB26400A2E745 /* TableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		644F4DA91D9AAFCA00A2E745 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				644F4DAA1D9AAFF800A2E745 /* MainVc.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +290,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				644F4D811D9AAA7500A2E745 /* LaunchScreen.storyboard in Resources */,
+				644F4DB11D9AB26400A2E745 /* TableViewCell.xib in Resources */,
 				644F4D7E1D9AAA7500A2E745 /* Assets.xcassets in Resources */,
-				644F4D7C1D9AAA7500A2E745 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +316,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				644F4D791D9AAA7500A2E745 /* ViewController.swift in Sources */,
 				644F4D771D9AAA7500A2E745 /* AppDelegate.swift in Sources */,
+				644F4DB01D9AB26400A2E745 /* TableViewCell.swift in Sources */,
+				644F4DAD1D9AB0C000A2E745 /* TableViewController.swift in Sources */,
+				644F4DB31D9AB2AD00A2E745 /* CellModel.swift in Sources */,
+				644F4DAB1D9AAFF800A2E745 /* MainVc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +356,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		644F4D7A1D9AAA7500A2E745 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				644F4D7B1D9AAA7500A2E745 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		644F4D7F1D9AAA7500A2E745 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -411,10 +463,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CalculateCellHeight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Cheng.CalculateCellHeight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -423,10 +477,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CalculateCellHeight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Cheng.CalculateCellHeight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -503,6 +559,7 @@
 				644F4D9D1D9AAA7500A2E745 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		644F4D9E1D9AAA7500A2E745 /* Build configuration list for PBXNativeTarget "CalculateCellHeightTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +568,7 @@
 				644F4DA01D9AAA7500A2E745 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		644F4DA11D9AAA7500A2E745 /* Build configuration list for PBXNativeTarget "CalculateCellHeightUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +577,7 @@
 				644F4DA31D9AAA7500A2E745 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
