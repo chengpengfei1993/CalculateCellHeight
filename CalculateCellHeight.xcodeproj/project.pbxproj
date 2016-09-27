@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		644F4D771D9AAA7500A2E745 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644F4D761D9AAA7500A2E745 /* AppDelegate.swift */; };
+		644F4D791D9AAA7500A2E745 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644F4D781D9AAA7500A2E745 /* ViewController.swift */; };
+		644F4D7C1D9AAA7500A2E745 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644F4D7A1D9AAA7500A2E745 /* Main.storyboard */; };
+		644F4D7E1D9AAA7500A2E745 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 644F4D7D1D9AAA7500A2E745 /* Assets.xcassets */; };
+		644F4D811D9AAA7500A2E745 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644F4D7F1D9AAA7500A2E745 /* LaunchScreen.storyboard */; };
+		644F4D8C1D9AAA7500A2E745 /* CalculateCellHeightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644F4D8B1D9AAA7500A2E745 /* CalculateCellHeightTests.swift */; };
+		644F4D971D9AAA7500A2E745 /* CalculateCellHeightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644F4D961D9AAA7500A2E745 /* CalculateCellHeightUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		644F4D881D9AAA7500A2E745 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 644F4D6B1D9AAA7500A2E745 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 644F4D721D9AAA7500A2E745;
+			remoteInfo = CalculateCellHeight;
+		};
+		644F4D931D9AAA7500A2E745 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 644F4D6B1D9AAA7500A2E745 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 644F4D721D9AAA7500A2E745;
+			remoteInfo = CalculateCellHeight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		644F4D731D9AAA7500A2E745 /* CalculateCellHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculateCellHeight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		644F4D761D9AAA7500A2E745 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		644F4D781D9AAA7500A2E745 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		644F4D7B1D9AAA7500A2E745 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		644F4D7D1D9AAA7500A2E745 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		644F4D801D9AAA7500A2E745 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		644F4D821D9AAA7500A2E745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		644F4D871D9AAA7500A2E745 /* CalculateCellHeightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculateCellHeightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		644F4D8B1D9AAA7500A2E745 /* CalculateCellHeightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateCellHeightTests.swift; sourceTree = "<group>"; };
+		644F4D8D1D9AAA7500A2E745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		644F4D921D9AAA7500A2E745 /* CalculateCellHeightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculateCellHeightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		644F4D961D9AAA7500A2E745 /* CalculateCellHeightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateCellHeightUITests.swift; sourceTree = "<group>"; };
+		644F4D981D9AAA7500A2E745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		644F4D701D9AAA7500A2E745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644F4D841D9AAA7500A2E745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644F4D8F1D9AAA7500A2E745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		644F4D6A1D9AAA7500A2E745 = {
+			isa = PBXGroup;
+			children = (
+				644F4D751D9AAA7500A2E745 /* CalculateCellHeight */,
+				644F4D8A1D9AAA7500A2E745 /* CalculateCellHeightTests */,
+				644F4D951D9AAA7500A2E745 /* CalculateCellHeightUITests */,
+				644F4D741D9AAA7500A2E745 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		644F4D741D9AAA7500A2E745 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				644F4D731D9AAA7500A2E745 /* CalculateCellHeight.app */,
+				644F4D871D9AAA7500A2E745 /* CalculateCellHeightTests.xctest */,
+				644F4D921D9AAA7500A2E745 /* CalculateCellHeightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		644F4D751D9AAA7500A2E745 /* CalculateCellHeight */ = {
+			isa = PBXGroup;
+			children = (
+				644F4D761D9AAA7500A2E745 /* AppDelegate.swift */,
+				644F4D781D9AAA7500A2E745 /* ViewController.swift */,
+				644F4D7A1D9AAA7500A2E745 /* Main.storyboard */,
+				644F4D7D1D9AAA7500A2E745 /* Assets.xcassets */,
+				644F4D7F1D9AAA7500A2E745 /* LaunchScreen.storyboard */,
+				644F4D821D9AAA7500A2E745 /* Info.plist */,
+			);
+			path = CalculateCellHeight;
+			sourceTree = "<group>";
+		};
+		644F4D8A1D9AAA7500A2E745 /* CalculateCellHeightTests */ = {
+			isa = PBXGroup;
+			children = (
+				644F4D8B1D9AAA7500A2E745 /* CalculateCellHeightTests.swift */,
+				644F4D8D1D9AAA7500A2E745 /* Info.plist */,
+			);
+			path = CalculateCellHeightTests;
+			sourceTree = "<group>";
+		};
+		644F4D951D9AAA7500A2E745 /* CalculateCellHeightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				644F4D961D9AAA7500A2E745 /* CalculateCellHeightUITests.swift */,
+				644F4D981D9AAA7500A2E745 /* Info.plist */,
+			);
+			path = CalculateCellHeightUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		644F4D721D9AAA7500A2E745 /* CalculateCellHeight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 644F4D9B1D9AAA7500A2E745 /* Build configuration list for PBXNativeTarget "CalculateCellHeight" */;
+			buildPhases = (
+				644F4D6F1D9AAA7500A2E745 /* Sources */,
+				644F4D701D9AAA7500A2E745 /* Frameworks */,
+				644F4D711D9AAA7500A2E745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalculateCellHeight;
+			productName = CalculateCellHeight;
+			productReference = 644F4D731D9AAA7500A2E745 /* CalculateCellHeight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		644F4D861D9AAA7500A2E745 /* CalculateCellHeightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 644F4D9E1D9AAA7500A2E745 /* Build configuration list for PBXNativeTarget "CalculateCellHeightTests" */;
+			buildPhases = (
+				644F4D831D9AAA7500A2E745 /* Sources */,
+				644F4D841D9AAA7500A2E745 /* Frameworks */,
+				644F4D851D9AAA7500A2E745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				644F4D891D9AAA7500A2E745 /* PBXTargetDependency */,
+			);
+			name = CalculateCellHeightTests;
+			productName = CalculateCellHeightTests;
+			productReference = 644F4D871D9AAA7500A2E745 /* CalculateCellHeightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		644F4D911D9AAA7500A2E745 /* CalculateCellHeightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 644F4DA11D9AAA7500A2E745 /* Build configuration list for PBXNativeTarget "CalculateCellHeightUITests" */;
+			buildPhases = (
+				644F4D8E1D9AAA7500A2E745 /* Sources */,
+				644F4D8F1D9AAA7500A2E745 /* Frameworks */,
+				644F4D901D9AAA7500A2E745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				644F4D941D9AAA7500A2E745 /* PBXTargetDependency */,
+			);
+			name = CalculateCellHeightUITests;
+			productName = CalculateCellHeightUITests;
+			productReference = 644F4D921D9AAA7500A2E745 /* CalculateCellHeightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		644F4D6B1D9AAA7500A2E745 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Chan.;
+				TargetAttributes = {
+					644F4D721D9AAA7500A2E745 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					644F4D861D9AAA7500A2E745 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 644F4D721D9AAA7500A2E745;
+					};
+					644F4D911D9AAA7500A2E745 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 644F4D721D9AAA7500A2E745;
+					};
+				};
+			};
+			buildConfigurationList = 644F4D6E1D9AAA7500A2E745 /* Build configuration list for PBXProject "CalculateCellHeight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 644F4D6A1D9AAA7500A2E745;
+			productRefGroup = 644F4D741D9AAA7500A2E745 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				644F4D721D9AAA7500A2E745 /* CalculateCellHeight */,
+				644F4D861D9AAA7500A2E745 /* CalculateCellHeightTests */,
+				644F4D911D9AAA7500A2E745 /* CalculateCellHeightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		644F4D711D9AAA7500A2E745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644F4D811D9AAA7500A2E745 /* LaunchScreen.storyboard in Resources */,
+				644F4D7E1D9AAA7500A2E745 /* Assets.xcassets in Resources */,
+				644F4D7C1D9AAA7500A2E745 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644F4D851D9AAA7500A2E745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644F4D901D9AAA7500A2E745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		644F4D6F1D9AAA7500A2E745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644F4D791D9AAA7500A2E745 /* ViewController.swift in Sources */,
+				644F4D771D9AAA7500A2E745 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644F4D831D9AAA7500A2E745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644F4D8C1D9AAA7500A2E745 /* CalculateCellHeightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644F4D8E1D9AAA7500A2E745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644F4D971D9AAA7500A2E745 /* CalculateCellHeightUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		644F4D891D9AAA7500A2E745 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 644F4D721D9AAA7500A2E745 /* CalculateCellHeight */;
+			targetProxy = 644F4D881D9AAA7500A2E745 /* PBXContainerItemProxy */;
+		};
+		644F4D941D9AAA7500A2E745 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 644F4D721D9AAA7500A2E745 /* CalculateCellHeight */;
+			targetProxy = 644F4D931D9AAA7500A2E745 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		644F4D7A1D9AAA7500A2E745 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				644F4D7B1D9AAA7500A2E745 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		644F4D7F1D9AAA7500A2E745 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				644F4D801D9AAA7500A2E745 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		644F4D991D9AAA7500A2E745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		644F4D9A1D9AAA7500A2E745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		644F4D9C1D9AAA7500A2E745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CalculateCellHeight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cheng.CalculateCellHeight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		644F4D9D1D9AAA7500A2E745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CalculateCellHeight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cheng.CalculateCellHeight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		644F4D9F1D9AAA7500A2E745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CalculateCellHeightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cheng.CalculateCellHeightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalculateCellHeight.app/CalculateCellHeight";
+			};
+			name = Debug;
+		};
+		644F4DA01D9AAA7500A2E745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CalculateCellHeightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cheng.CalculateCellHeightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalculateCellHeight.app/CalculateCellHeight";
+			};
+			name = Release;
+		};
+		644F4DA21D9AAA7500A2E745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CalculateCellHeightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cheng.CalculateCellHeightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CalculateCellHeight;
+			};
+			name = Debug;
+		};
+		644F4DA31D9AAA7500A2E745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CalculateCellHeightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cheng.CalculateCellHeightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CalculateCellHeight;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		644F4D6E1D9AAA7500A2E745 /* Build configuration list for PBXProject "CalculateCellHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644F4D991D9AAA7500A2E745 /* Debug */,
+				644F4D9A1D9AAA7500A2E745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		644F4D9B1D9AAA7500A2E745 /* Build configuration list for PBXNativeTarget "CalculateCellHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644F4D9C1D9AAA7500A2E745 /* Debug */,
+				644F4D9D1D9AAA7500A2E745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		644F4D9E1D9AAA7500A2E745 /* Build configuration list for PBXNativeTarget "CalculateCellHeightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644F4D9F1D9AAA7500A2E745 /* Debug */,
+				644F4DA01D9AAA7500A2E745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		644F4DA11D9AAA7500A2E745 /* Build configuration list for PBXNativeTarget "CalculateCellHeightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644F4DA21D9AAA7500A2E745 /* Debug */,
+				644F4DA31D9AAA7500A2E745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 644F4D6B1D9AAA7500A2E745 /* Project object */;
+}
