@@ -12,7 +12,7 @@ class TableViewController: UITableViewController {
 
 //    lazy var dataArray = [CellModel]()
     lazy var dataArray = Array<CellModel>()
-    var calculateCell = TableViewCell.createCalculateCell(maxHeight: 999)
+    lazy var calculateCell = TableViewCell.createCalculateCell(maxHeight: 999)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,10 +22,6 @@ class TableViewController: UITableViewController {
     }
 
     func createData() {
-//        var title       : String?
-//        var desc        : String?
-//        var time        : String?
-//        var imageUrl
         let rows = [
             [
                 "title"     : "乒乓女王邓亚萍，亏损20亿不致歉，导致名誉扫地",
@@ -102,7 +98,7 @@ class TableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         if indexPath.row < dataArray.count {
             let news = dataArray[indexPath.row]
-            if news.cellHeight <= 0 {
+            if news.cellHeight <= 0 { // 只有当没有高度时才需要计算
                 calculateCell.calculate(model: news)
             }
             return news.cellHeight
