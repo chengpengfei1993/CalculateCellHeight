@@ -16,8 +16,6 @@ class TableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        calculateCell = TableViewCell.cell(tableView: tableView)
-//        calculateCell?.isCalculateHeight = true
         self.title = "计算cell高度";
         self.tableView.tableFooterView = UIView() //去掉多余的线
         createData()
@@ -43,7 +41,7 @@ class TableViewController: UITableViewController {
             ],
             [
                 "title"     : "乒乓女王邓亚萍，亏损20亿不致歉，导致名誉扫地",
-                "desc"      : "作为国球，乒乓球带给我们的总是荣耀，谁也赢不了，对手遇到中国球员就和游戏中碰上大魔王一样，怎么打都不行。说起中国乒乓球的大魔王，大家首先想到的不是张怡宁，更不是李晓霞、丁宁之流，而是首位大满贯获得者邓亚萍。",
+                "desc"      : "",
                 "time"      : "2016-09-27 16:44",
                 "imageUrl"  : "dads"
             ],

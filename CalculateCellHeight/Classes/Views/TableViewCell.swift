@@ -23,18 +23,25 @@ class TableViewCell: UITableViewCell {
     
     var news : CellModel? {
         didSet {
-            self.lbTitle.text = self.news?.title
-            self.lbDesc.text = self.news?.desc
-            self.lbTime.text = self.news?.time
-            if (self.news?.imageUrl?.characters.count)! == 0 {
-                self.conImgRight.constant = -80
+            self.lbTitle.text = news?.title
+            self.lbDesc.text = news?.desc
+            self.lbTime.text = news?.time
+            var showImg = false
+            if (news?.imageUrl?.characters.count)! == 0 {
+                conImgRight.constant = -80
             }else {
-                self.conImgRight.constant = 15
+                conImgRight.constant = 15
+                showImg = true
             }
-            self.layoutIfNeeded()
-            if self.isCalculateHeight == true {
-                self.news?.cellHeight = CGFloat(lbTime.frame.maxY + 12)
-                
+            layoutIfNeeded()
+            if isCalculateHeight == true {
+                var cellHeight = CGFloat(lbTime.frame.maxY + 12)
+                if showImg == true {
+                    if imgCover.frame.maxY > lbTime.frame.maxY {
+                        cellHeight = CGFloat(imgCover.frame.maxY + 12)
+                    }
+                }
+                news?.cellHeight = cellHeight
             }
         }
     }
