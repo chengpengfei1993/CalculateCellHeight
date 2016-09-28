@@ -25,6 +25,9 @@ class TableViewController: UITableViewController {
     func initListener() {
         NotificationCenter.default.addObserver(self, selector: #selector(TableViewController.orientationDidChange(noti:)), name: NSNotification.Name.UIDeviceOrientationDidChange, object: nil)
     }
+    deinit {
+        NotificationCenter.default.removeObserver(self)
+    }
     func orientationDidChange(noti:Notification) {
         dataArray.foreach { (news) in
             news.cellHeight = 0
