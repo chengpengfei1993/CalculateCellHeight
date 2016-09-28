@@ -51,11 +51,14 @@ class TableViewCell: UITableViewCell {
     static func createCalculateCell(maxHeight:CGFloat) -> TableViewCell{
         let cell = TableViewCell.createCell()
         cell.isCalculateHeight = true // 这里要标记为true
-        var newFrame = cell.frame
+        cell.updateWidth(maxHeight: maxHeight) // 更新宽度
+        return cell
+    }
+    func updateWidth(maxHeight:CGFloat) {
+        var newFrame = frame
         newFrame.size.width = UIScreen.main.bounds.width // 这里注意一定要把cell宽度改为屏幕的宽度或者自己想要的宽度
         newFrame.size.height = maxHeight // ios7对autolayout的支持不是很好所以最好给一个最大高度
-        cell.frame = newFrame
-        return cell
+        frame = newFrame
     }
     static func createCell()->TableViewCell {
         /* 注意，这里有个坑。如果在cell里面又加了手势的话，那就不能取数组的最后一个了。因为最后一个是手势不是cell

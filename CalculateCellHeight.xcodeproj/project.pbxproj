@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		643ED4761D9BA8C700D3FBC2 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643ED4751D9BA8C700D3FBC2 /* Array+Extension.swift */; };
 		644F4D771D9AAA7500A2E745 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644F4D761D9AAA7500A2E745 /* AppDelegate.swift */; };
 		644F4D7E1D9AAA7500A2E745 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 644F4D7D1D9AAA7500A2E745 /* Assets.xcassets */; };
 		644F4D811D9AAA7500A2E745 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644F4D7F1D9AAA7500A2E745 /* LaunchScreen.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		643ED4751D9BA8C700D3FBC2 /* Array+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 		644F4D731D9AAA7500A2E745 /* CalculateCellHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculateCellHeight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		644F4D761D9AAA7500A2E745 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		644F4D7D1D9AAA7500A2E745 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				644F4DA61D9AAFA400A2E745 /* Controllers */,
 				644F4DA71D9AAFA400A2E745 /* Models */,
 				644F4DA81D9AAFA400A2E745 /* Views */,
+				643ED4751D9BA8C700D3FBC2 /* Array+Extension.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 				644F4D771D9AAA7500A2E745 /* AppDelegate.swift in Sources */,
 				644F4DB01D9AB26400A2E745 /* TableViewCell.swift in Sources */,
 				644F4DAD1D9AB0C000A2E745 /* TableViewController.swift in Sources */,
+				643ED4761D9BA8C700D3FBC2 /* Array+Extension.swift in Sources */,
 				644F4DB31D9AB2AD00A2E745 /* CellModel.swift in Sources */,
 				644F4DAB1D9AAFF800A2E745 /* MainVc.swift in Sources */,
 			);

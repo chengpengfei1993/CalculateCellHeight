@@ -16,11 +16,22 @@ class TableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        initListener()
         self.title = "计算cell高度";
         self.tableView.tableFooterView = UIView() //去掉多余的线
         createData()
     }
 
+    func initListener() {
+        NotificationCenter.default.addObserver(self, selector: #selector(TableViewController.orientationDidChange(noti:)), name: NSNotification.Name.UIDeviceOrientationDidChange, object: nil)
+    }
+    func orientationDidChange(noti:Notification) {
+        dataArray.foreach { (news) in
+            news.cellHeight = 0
+        }
+        calculateCell.updateWidth(maxHeight: 999)
+        tableView.reloadData()
+    }
     func createData() {
         let rows = [
             [
@@ -106,3 +117,4 @@ class TableViewController: UITableViewController {
         return 0
     }
 }
+
